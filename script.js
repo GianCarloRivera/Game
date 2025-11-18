@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 noBtn.onclick = () => {
                     messageDisplay.innerHTML = 'My heart will keep trying 💔';
                     setTimeout(() => {
-                        messageDisplay.innerHTML += '<br>Just kidding! Please say yes? 🥺';
+                        messageDisplay.innerHTML += '<br>Please say yes? 🥺';
                     }, 1500);
                 };
                 
